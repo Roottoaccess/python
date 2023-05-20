@@ -16,4 +16,21 @@ print("Performing // means that number // number1 = ", number // number1)
 
 # Assignment operator
 a = 5
+a *= 5
 print("Here a is the assignment operator ", a)
+
+# Comparison Operator
+com = 45
+bom = 55
+print("Is 45 is greater than 55 ? ", com > bom)
+print("Is 45 is less than 55 ? ", com < bom)
+print("Is 45 is not equals to 55 ? ", com != bom)
+print("Is 45 is equals to 55 ? ", com == bom)
+
+# Logical Operators
+print("45 is greater than 55 and 45 not equals to 55 ? ", com > bom and com != bom)
+print("45 is greater than 55 or 45 not equals to 55 ? ", com > bom or com != bom)
+print(not(False))
+print(not(True))
+
+
