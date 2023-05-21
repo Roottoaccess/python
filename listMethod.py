@@ -39,3 +39,9 @@ print(li)'''
 # Return the index value :-
 print("The index number of 84 is : ", li.index(84))
 
+# Slicing the value of the list
+print(li[0:3])
+
+# We can also change the value targeting the index number
+li[0] = 444
+print(li)
